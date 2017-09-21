@@ -1,0 +1,17 @@
+<h1> TOPQ RENTALS </h1>
+
+<p> A warm welcome to TopQ Rentals.
+  We hope to be of service to you in your search for a quality
+  and affordable rental property to suit your residential and leisure needs.
+  Have fun exploring the options available to you. </p>
+   <ul>
+     {{#each model as |rental|}}
+      <li>{{rental.owner}}'s {{rental.type}} in {{rental.locale}}</li>
+      {{/each}}
+    </ul>
+     
+     {{#link-to 'about'}}About{{/link-to}}
+     {{#link-to 'contact'}} Contacts{{/link-to}}
+     
+     
+     
