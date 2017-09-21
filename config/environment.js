@@ -17,7 +17,12 @@ module.exports = function(environment) {
         Date: false
       }
     },
-
+    firebase: {
+      apiKey: "AIzaSyDUZhvp4IxGBqdXhi7u27AuNjlMikZbI1o",
+      authDomain: "topq-rentals.firebaseapp.com",
+      databaseURL: "https://topq-rentals.firebaseio.com",
+      storageBucket: "topq-rentals.appspot.com"
+    },
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
